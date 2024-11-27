@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main () {
+	string nama,kampus,prodi;
+	double angkatan;
+	
+	cout << "masukkan nama kamu       : " ;
+	getline(cin,nama);
+	cout <<"masukkan Universitas kamu : ";
+	cin>> kampus;
+	cout <<"masukkan nama Prodi       :  ";
+	cin>> prodi;
+	cout<<"dari Angkatan berapa       :  ";
+	cin>>angkatan;
+	cout<<"Salam Kenal aku dari angkatan 22";
+
+}
